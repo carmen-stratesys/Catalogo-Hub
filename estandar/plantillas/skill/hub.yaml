@@ -1,0 +1,14 @@
+nombre: verbo-objeto
+tipo: skill
+descripcion: Qué hace, en una o dos frases.
+cuando_usar: Cuándo usarla y cuándo no.
+capacidades: [verbo:objeto@sistema]
+tecnologias: [python]
+lee_o_escribe: lectura
+instalacion: Copiar la carpeta a .claude/skills/ del proyecto.
+version: 1.0.0
+autor: (lo pone el Hub)
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null

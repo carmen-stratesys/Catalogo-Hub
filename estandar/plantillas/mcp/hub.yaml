@@ -1,0 +1,14 @@
+nombre: mcp-sistema
+tipo: mcp
+descripcion: Qué da acceso a qué sistema, en una o dos frases.
+cuando_usar: Cuándo usarlo y cuándo no.
+capacidades: [leer:objeto@Sistema]
+tecnologias: [python]
+lee_o_escribe: lectura
+instalacion: Añadir el servidor a la configuración MCP del asistente.
+version: 1.0.0
+autor: (lo pone el Hub)
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null
