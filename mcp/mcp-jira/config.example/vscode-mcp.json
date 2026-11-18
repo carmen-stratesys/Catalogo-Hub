@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mcp-jira": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "JIRA_URL": "${env:JIRA_URL}",
+        "JIRA_PROYECTO": "${env:JIRA_PROYECTO}"
+      }
+    }
+  }
+}

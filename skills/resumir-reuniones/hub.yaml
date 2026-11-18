@@ -1,0 +1,16 @@
+nombre: resumir-reuniones
+tipo: skill
+descripcion: Resume notas ficticias de una reunión en acuerdos y acciones.
+cuando_usar: Para practicar la tarea «resumir-reuniones» con entradas ficticias; no realiza acciones en sistemas.
+capacidades:
+- resumir:reuniones@General
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Copiar la carpeta a `.claude/skills/resumir-reuniones/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null

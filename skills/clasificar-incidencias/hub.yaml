@@ -1,0 +1,16 @@
+nombre: clasificar-incidencias
+tipo: skill
+descripcion: Clasifica incidencias por tipo y prioridad.
+cuando_usar: Para practicar la tarea «clasificar-incidencias» con entradas ficticias; no realiza acciones en sistemas.
+capacidades:
+- clasificar:incidencias@AzureDevOps
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Copiar la carpeta a `.claude/skills/clasificar-incidencias/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null

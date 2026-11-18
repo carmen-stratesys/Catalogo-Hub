@@ -1,0 +1,20 @@
+nombre: mcp-jira
+tipo: mcp
+descripcion: Servidor ficticio de lectura para tickets y sprints de Jira.
+cuando_usar: Para probar consultas de lectura con datos de ejemplo; no crea ni modifica elementos.
+capacidades:
+- leer:tickets@Jira
+- leer:sprints@Jira
+tecnologias:
+- python
+- mcp
+lee_o_escribe: lectura
+instalacion: Registrar en `.vscode/mcp.json` usando `config.example/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- skills/resumir-reuniones
+- skills/priorizar-tareas
+sustituye: null
+obsoleto: false
+sustituido_por: null

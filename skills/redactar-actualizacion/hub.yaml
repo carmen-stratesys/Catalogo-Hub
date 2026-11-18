@@ -1,0 +1,16 @@
+nombre: redactar-actualizacion
+tipo: skill
+descripcion: Redacta una actualización breve a partir de avances proporcionados.
+cuando_usar: Para practicar la tarea «redactar-actualizacion» con entradas ficticias; no realiza acciones en sistemas.
+capacidades:
+- redactar:actualizacion@General
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Copiar la carpeta a `.claude/skills/redactar-actualizacion/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null

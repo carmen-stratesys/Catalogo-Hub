@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mcp-sharepoint": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "SHAREPOINT_SITIO": "${env:SHAREPOINT_SITIO}",
+        "SHAREPOINT_BIBLIOTECA": "${env:SHAREPOINT_BIBLIOTECA}"
+      }
+    }
+  }
+}

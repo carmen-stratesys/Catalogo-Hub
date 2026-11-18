@@ -1,0 +1,20 @@
+nombre: mcp-github
+tipo: mcp
+descripcion: Servidor ficticio de lectura para repositorios e issues.
+cuando_usar: Para probar consultas de lectura; no accede a GitHub ni modifica repositorios.
+capacidades:
+- leer:repositorios@GitHub
+- leer:issues@GitHub
+tecnologias:
+- python
+- mcp
+lee_o_escribe: lectura
+instalacion: Registrar en `.vscode/mcp.json` usando `config.example/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- skills/generar-casos-prueba
+- skills/revisar-criterios
+sustituye: null
+obsoleto: false
+sustituido_por: null

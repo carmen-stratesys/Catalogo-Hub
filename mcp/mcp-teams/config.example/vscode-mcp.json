@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mcp-teams": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "TEAMS_EQUIPO": "${env:TEAMS_EQUIPO}",
+        "TEAMS_CANAL": "${env:TEAMS_CANAL}"
+      }
+    }
+  }
+}

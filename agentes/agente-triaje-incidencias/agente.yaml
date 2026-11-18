@@ -1,0 +1,4 @@
+modelo: gama-intermedia
+usa:
+- mcp/mcp-azure-devops
+- skills/clasificar-incidencias

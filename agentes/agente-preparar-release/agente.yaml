@@ -1,0 +1,4 @@
+modelo: gama-intermedia
+usa:
+- mcp/mcp-github
+- skills/generar-casos-prueba

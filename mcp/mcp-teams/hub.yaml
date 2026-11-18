@@ -1,0 +1,20 @@
+nombre: mcp-teams
+tipo: mcp
+descripcion: Servidor ficticio de lectura para canales y mensajes de Teams.
+cuando_usar: Para probar consultas de lectura con datos de ejemplo; no envía mensajes.
+capacidades:
+- leer:canales@Teams
+- leer:mensajes@Teams
+tecnologias:
+- python
+- mcp
+lee_o_escribe: lectura
+instalacion: Registrar en `.vscode/mcp.json` usando `config.example/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- skills/redactar-actualizacion
+- skills/agrupar-comentarios
+sustituye: null
+obsoleto: false
+sustituido_por: null

@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mcp-github": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "GITHUB_ORGANIZACION": "${env:GITHUB_ORGANIZACION}",
+        "GITHUB_REPOSITORIO": "${env:GITHUB_REPOSITORIO}"
+      }
+    }
+  }
+}

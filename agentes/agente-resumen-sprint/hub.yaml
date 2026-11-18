@@ -1,0 +1,18 @@
+nombre: agente-resumen-sprint
+tipo: agente
+descripcion: Prepara un resumen ficticio de sprint a partir de tickets y notas.
+cuando_usar: Para probar resúmenes de sprint; no modifica tickets ni sprints.
+capacidades:
+- resumir:sprint@Jira
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Instalar las instrucciones en `.claude/agents/agente-resumen-sprint.md`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- mcp/mcp-jira
+- skills/resumir-reuniones
+sustituye: null
+obsoleto: false
+sustituido_por: null

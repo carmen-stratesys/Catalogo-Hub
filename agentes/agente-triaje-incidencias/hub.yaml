@@ -1,0 +1,18 @@
+nombre: agente-triaje-incidencias
+tipo: agente
+descripcion: Prepara un resumen de triaje a partir de incidencias proporcionadas.
+cuando_usar: Para organizar incidencias de ejemplo; no cambia su prioridad ni su estado.
+capacidades:
+- organizar:incidencias@AzureDevOps
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Instalar las instrucciones en `.claude/agents/agente-triaje-incidencias.md`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- mcp/mcp-azure-devops
+- skills/clasificar-incidencias
+sustituye: null
+obsoleto: false
+sustituido_por: null

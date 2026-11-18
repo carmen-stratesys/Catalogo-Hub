@@ -1,0 +1,20 @@
+nombre: mcp-sharepoint
+tipo: mcp
+descripcion: Servidor ficticio de lectura para documentos y metadatos.
+cuando_usar: Para probar búsquedas con resultados de ejemplo; no se conecta a SharePoint.
+capacidades:
+- leer:documentos@SharePoint
+- leer:metadatos@SharePoint
+tecnologias:
+- python
+- mcp
+lee_o_escribe: lectura
+instalacion: Registrar en `.vscode/mcp.json` usando `config.example/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- skills/extraer-requisitos
+- skills/traducir-documentacion
+sustituye: null
+obsoleto: false
+sustituido_por: null

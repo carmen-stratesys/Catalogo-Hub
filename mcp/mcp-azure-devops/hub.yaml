@@ -1,0 +1,19 @@
+nombre: mcp-azure-devops
+tipo: mcp
+descripcion: Servidor ficticio de lectura para incidencias y tareas de Azure DevOps.
+cuando_usar: Para probar consultas de lectura con datos de ejemplo; no crea ni modifica elementos.
+capacidades:
+- leer:incidencias@AzureDevOps
+- leer:tareas@AzureDevOps
+tecnologias:
+- python
+- mcp
+lee_o_escribe: lectura
+instalacion: Registrar en `.vscode/mcp.json` usando `config.example/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- skills/clasificar-incidencias
+sustituye: null
+obsoleto: false
+sustituido_por: null

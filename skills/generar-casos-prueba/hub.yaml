@@ -1,0 +1,16 @@
+nombre: generar-casos-prueba
+tipo: skill
+descripcion: Propone casos de prueba a partir de criterios de aceptación.
+cuando_usar: Para practicar la tarea «generar-casos-prueba» con entradas ficticias; no realiza acciones en sistemas.
+capacidades:
+- generar:casos-prueba@General
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Copiar la carpeta a `.claude/skills/generar-casos-prueba/`.
+version: 1.0.0
+autor: equipo-demo
+relacionados: []
+sustituye: null
+obsoleto: false
+sustituido_por: null

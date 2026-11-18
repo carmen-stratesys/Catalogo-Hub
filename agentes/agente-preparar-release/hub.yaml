@@ -1,0 +1,18 @@
+nombre: agente-preparar-release
+tipo: agente
+descripcion: Organiza una lista de comprobación ficticia para una versión.
+cuando_usar: Para generar una lista de revisión; no publica ni despliega versiones.
+capacidades:
+- preparar:release@GitHub
+tecnologias:
+- python
+lee_o_escribe: lectura
+instalacion: Instalar las instrucciones en `.claude/agents/agente-preparar-release.md`.
+version: 1.0.0
+autor: equipo-demo
+relacionados:
+- mcp/mcp-github
+- skills/generar-casos-prueba
+sustituye: null
+obsoleto: false
+sustituido_por: null

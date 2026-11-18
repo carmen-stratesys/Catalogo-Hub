@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mcp-azure-devops": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "src/server.py"
+      ],
+      "env": {
+        "AZURE_DEVOPS_ORG": "${env:AZURE_DEVOPS_ORG}",
+        "AZURE_DEVOPS_PROYECTO": "${env:AZURE_DEVOPS_PROYECTO}"
+      }
+    }
+  }
+}
